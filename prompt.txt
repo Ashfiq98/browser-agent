@@ -6,61 +6,284 @@ You are an AI-powered QA tester assigned to evaluate the functionality and perfo
 - Execute test cases serially 
 
 # Tasks :
-1.  TravelAI Logo Click Test
-    Task: Go to travelAi.com, click all the 'TravelAI' logo on that page and ensure it redirects to the homepage.
-2.  TravelAI Logo UI Test on Devices
-    Task: Check if the logo is visible and responsive on iPhone, iPad, and Desktop.
-3.  Our Brand Navigation Menu Click Test
-    Task: Click on 'Our brands' in the navigation menu and verify it redirects to the correct page.
-4.  Our Brand Menu Spelling Check
-    Task: Inspect the 'Our brands' navigation menu text for any spelling errors.
-5.  Our Brand Menu Responsive Display Test
-    Task: Check if the 'Our brands' menu displays correctly on iPhone, iPad, and Desktop views.
-6.  Applied AI Navigation Menu Click Test
-    Task: Click on 'Applied AI' in the navigation menu and verify it redirects to the correct page.
-7.  Applied AI Menu Spelling Check
-    Task: Inspect the 'Applied AI' navigation menu text for any spelling errors.
-8.  Applied AI Menu Responsive Display Test
-    Task: Check if the 'Applied AI' menu displays correctly on iPhone, iPad, and Desktop views.
-9.  Our Vision Navigation Menu Click Test
-    Task: Click on 'Our Vision' in the navigation menu and verify it redirects to the correct page.
+1. TravelAI Logo Click Test
+   Task: Go to travelAi.com, click all the 'TravelAI' logo on that page and ensure it redirects to the homepage.
+
+2. TravelAI Logo UI Test on Devices
+   Task: Check if the logo is visible and responsive on iPhone, iPad, and Desktop.
+
+3. Our Brand Navigation Menu Click Test
+   Task: Click on 'Our brands' in the navigation menu and verify it redirects to the correct page.
+
+4. Our Brand Menu Spelling Check
+   Task: Inspect the 'Our brands' navigation menu text for any spelling errors.
+
+5. Our Brand Menu Responsive Display Test
+   Task: Check if the 'Our brands' menu displays correctly on iPhone, iPad, and Desktop views.
+
+6. Applied AI Navigation Menu Click Test
+   Task: Click on 'Applied AI' in the navigation menu and verify it redirects to the correct page.
+
+7. Applied AI Menu Spelling Check
+   Task: Inspect the 'Applied AI' navigation menu text for any spelling errors.
+
+8. Applied AI Menu Responsive Display Test
+   Task: Check if the 'Applied AI' menu displays correctly on iPhone, iPad, and Desktop views.
+
+9. Our Vision Navigation Menu Click Test
+   Task: Click on 'Our Vision' in the navigation menu and verify it redirects to the correct page.
+
 10. Our Vision Menu Spelling Check
     Task: Inspect the 'Our Vision' navigation menu text for any spelling errors.
+
 11. Our Vision Menu Responsive Display Test
     Task: Check if the 'Our Vision' menu displays correctly on iPhone, iPad, and Desktop views.
+
 12. Contact Us Navigation Menu Click Test
     Task: Click on 'Contact Us' in the navigation menu and verify it redirects to the correct page.
+
 13. Contact Us Menu Spelling Check
     Task: Inspect the 'Contact Us' navigation menu text for any spelling errors.
+
 14. Contact Us Menu Responsive Display Test
     Task: Check if the 'Contact Us' menu displays correctly on iPhone, iPad, and Desktop views.
+
 15. Resources Navigation Menu Click Test
     Task: Click on 'Resources' in the navigation menu and verify it redirects to the correct page.
+
 16. Resources Menu Spelling Check
     Task: Inspect the 'Resources' navigation menu text for any spelling errors.
+
 17. Resources Menu Responsive Display Test
     Task: Check if the 'Resources' menu displays correctly on iPhone, iPad, and Desktop views.
+
 18. Hamburger Icon Visibility Test
     Task: On mobile and tablet devices (iPhone and iPad), verify that the hamburger menu icon is properly visible.
+
 19. Hamburger Icon Click Functionality Test
     Task: On iPhone and iPad, click on the hamburger icon and verify it opens the navigation menu properly.
+
 20. Hamburger Menu Content Test
     Task: After opening the hamburger menu on mobile devices, verify that all navigation menu items are visible and properly displayed.
+
 21. Cross Icon Functionality Test in Hamburger Menu
     Task: After opening the hamburger menu with click, click on the cross (X) icon and verify that the menu closes properly.
+
 22. Hamburger Menu UI Test
     Task: Verify that the hamburger menu, logo, and cross icon are displayed according to the design specifications.
+
 23. Hero Section Content Verification
     Task: Check that the real content in the Hero section matches the content document and verify that spelling is correct.
+
 24. "Read More" Button Click Functionality Test
     Task: Click on the "Read more - our vision" button and verify it redirects to the correct page.
+
 25. "More Resource" Link Click Functionality Test
-    Task: Click on the "More resource" link and verify it redirects to the correct page
+    Task: Click on the "More resource" link and verify it redirects to the correct page.
+
 26. Agentic Network Content Verification
     Task: Check that the real content in the Agentic Network section matches the content document and verify that spelling is correct.
+
 27. Agentic Network Title Click Image Change Test
     Task: Click on the "Evolving travel market pace" title in the Agentic Networks section and verify that the image changes as expected.
+
 28. Third Voice Travel AI Content Verification
     Task: Check that the real content in the Third Voice Travel AI section matches the content document and verify that spelling is correct.
+
 29. Travel Platform Shifts Content Verification
     Task: Check that the real content in the Travel Platform Shifts section matches the content document and verify that spelling is correct.
+
+30. Hero Section Responsive Design Test
+    Task: Check if the Hero section displays correctly on iPhone, iPad, and Desktop views.
+
+31. Agentic Network Responsive Design Test
+    Task: Check if the Agentic Network section displays correctly on iPhone, iPad, and Desktop views.
+
+32. Third Voice Travel AI Responsive Design Test
+    Task: Check if the Third Voice Travel AI section displays correctly on iPhone, iPad, and Desktop views.
+
+33. Travel Platform Shifts Responsive Design Test
+    Task: Check if the Travel Platform Shifts section displays correctly on iPhone, iPad, and Desktop views.
+
+34. Page Navigation Flow Test
+    Task: Verify the navigation flow between all sections (Hero, Agentic Network, Third Voice Travel AI, Travel Platform Shifts) works correctly.
+
+35. Mobile Hamburger Menu Section Access Test
+    Task: On mobile devices, verify that all sections are accessible through the hamburger menu.
+
+36. Section Link Consistency Test
+    Task: Verify that all section links in the navigation menu correctly scroll or redirect to their respective sections.
+
+37. Section Content Spelling Consistency Test
+    Task: Perform a comprehensive spelling check across all sections to ensure consistency.
+
+38. Image Loading Test
+    Task: Verify all images in each section load properly on different network speeds and devices.
+
+39. Section Animation Test
+    Task: Check any transitions or animations between sections to ensure they work smoothly on all supported devices.
+
+40. "See Applied AI in Action" Button Click Test
+    Task: Click on the "See Applied AI in Action" button and verify it redirects to the correct page.
+
+41. "Join the TravelAI Movement" Content Verification
+    Task: Check that the real content in the "Join the TravelAI Movement" section matches the content document and verify that spelling is correct.
+
+42. Email Copy Functionality Test
+    Task: In the "Join the TravelAI Movement" section, verify that clicking the copy icon copies the email to clipboard.
+
+43. "General Inquiries/Partnership and Supplier/Press or Media" Links Test
+    Task: Verify that all links in the "General Inquiries/Partnership and Supplier/Press or Media" section are working correctly.
+
+44. "One Vision, Infinite Possibilities" Content Verification
+    Task: Check that the real content in the "One Vision, Infinite Possibilities" section matches the content document and verify that spelling is correct.
+
+45. VRS Site Logo Click Test
+    Task: Click on the VRS site logo and verify it redirects to the correct page.
+
+46. Device Compatibility Logo Test
+   Task: Verify that the TravelAI logo displays correctly and is not broken across iPhone, iPad, and desktop devices.
+
+47. "Join the TravelAI Movement" Section Responsive Design Test
+   Task: Check if the "Join the TravelAI Movement" section displays correctly on iPhone, iPad, and Desktop views.
+
+48. "One Vision, Infinite Possibilities" Responsive Design Test
+   Task: Check if the "One Vision, Infinite Possibilities" section displays correctly on iPhone, iPad, and Desktop views.
+
+49. Footer Responsive Design Test
+   Task: Check if the footer displays correctly on iPhone, iPad, and Desktop views.
+
+50. Copy Email Button Accessibility Test
+   Task: Verify that the copy email button in the "Join the TravelAI Movement" section is accessible using keyboard navigation.
+
+51. Scroll-to-Top Button in Footer Test
+   Task: Verify that any scroll-to-top button in the footer works correctly.
+
+52. Email Copy Confirmation Test
+   Task: After clicking the copy icon for email, verify that a confirmation message or visual indicator appears.
+
+53. Footer Links Consistency Test
+   Task: Verify that all links in the footer open consistently (same tab or new tab) across all pages.
+
+54. Footer Social Media Icons Test
+   Task: Verify all social media icons in the footer are visible, clickable, and redirect to the correct social media pages.
+
+55. Footer Copyright Information Test
+    Task: Verify that the copyright information in the footer is current and correctly displayed.
+
+56. VRS Site Logo Link Security Test
+    Task: Verify that the VRS site logo link uses proper security protocols (HTTPS) when redirecting.
+
+57. "Our Brand" Footer Menu Spelling Check
+    Task: Inspect the "Our brands" footer menu text for any spelling errors.
+
+58. "Our Brand" Footer Menu Device Compatibility Test
+    Task: Verify that the "Our brands" footer menu displays correctly across iPhone, iPad, and desktop devices.
+
+59. "Our Brand" Footer Menu Click Test
+    Task: Click on the "Our brands" footer menu link and verify it redirects to the correct page.
+
+60. "Applied AI" Footer Menu Spelling Check
+    Task: Inspect the "Applied AI" footer menu text for any spelling errors.
+
+61. "Applied AI" Footer Menu Device Compatibility Test
+    Task: Verify that the "Applied AI" footer menu displays correctly across iPhone, iPad, and desktop devices.
+
+62. "Applied AI" Footer Menu Click Test
+    Task: Click on the "Applied AI" footer menu link and verify it redirects to the correct page.
+
+63. "Our Vision" Footer Menu Spelling Check
+    Task: Inspect the "Our Vision" footer menu text for any spelling errors.
+
+64. "Our Vision" Footer Menu Device Compatibility Test
+    Task: Verify that the "Our Vision" footer menu displays correctly across iPhone, iPad, and desktop devices.
+
+65. "Our Vision" Footer Menu Click Test
+    Task: Click on the "Our Vision" footer menu link and verify it redirects to the correct page.
+
+66. Footer Menu Consistency Test
+    Task: Verify that all footer menu items ("Our Brand", "Applied AI", "Our Vision") have consistent styling and behavior.
+
+67. Footer Menu Keyboard Navigation Test
+    Task: Verify that all footer menu items can be accessed and activated using keyboard navigation.
+
+68. Footer Menu Animation Test
+    Task: Verify that any animations or transitions when interacting with footer menu items work smoothly across all devices.
+
+69. Footer Menu Text Contrast Test
+    Task: Verify that all footer menu text has sufficient contrast against the background for accessibility.
+
+70. Footer Menu Link HTTP Status Test
+    Task: Verify that all footer menu links return a 200 OK status when accessed.
+
+71. Footer Menu Responsive Layout Test
+    Task: Verify that the footer menu layout adapts appropriately to different screen sizes.
+
+72. Footer Menu Screen Reader Test
+    Task: Verify that screen readers correctly announce all footer menu items and their current states.
+
+73. Footer Menu Touch Target Size Test
+    Task: Verify that the touch target size for footer menu items is adequate for mobile users.
+
+74. Footer Menu Language Attribute Test
+    Task: Verify that proper language attributes are applied to footer menu items for multilingual support.
+
+75. Footer Menu Tooltips Test
+    Task: Verify that any tooltips displayed for footer menu items show correct information.
+
+76. Footer Menu Underline Visibility Test
+    Task: Verify that any underlines or indicators for footer menu items are visible.
+
+77. Footer Menu Load Performance Test
+    Task: Measure the load time for footer menu items and verify it meets performance standards.
+
+78. "Contact Us" Footer Menu Spelling Check
+    Task: Inspect the "Contact Us" footer menu text for any spelling errors.
+
+79. "Contact Us" Footer Menu Device Compatibility Test
+    Task: Verify that the "Contact Us" footer menu displays correctly across iPhone, iPad, and desktop devices.
+
+80. "Contact Us" Footer Menu Click Test
+    Task: Click on the "Contact Us" footer menu link and verify it redirects to the correct page.
+
+81. "Resources" Footer Menu Spelling Check
+    Task: Inspect the "Resources" footer menu text for any spelling errors.
+
+82. "Resources" Footer Menu Device Compatibility Test
+    Task: Verify that the "Resources" footer menu displays correctly across iPhone, iPad, and desktop devices.
+
+83. "Resources" Footer Menu Click Test
+    Task: Click on the "Resources" footer menu link and verify it redirects to the correct page.
+
+84. Social Icon Click Test
+    Task: Click on social icons in the footer and verify they redirect to the correct social media platforms.
+
+85. TravelAI Solutions Inc. Link Click Test
+    Task: Click on the "TravelAI Solutions Inc." link in the footer and verify it redirects to the correct website.
+
+86. Privacy Policy Link Click Test
+    Task: Click on the Privacy Policy link in the footer and verify it redirects to the correct page.
+
+87. Terms Link Click Test
+    Task: Click on the Terms link in the footer and verify it redirects to the correct page.
+
+88. Sitemap Link Click Test
+    Task: Click on the Sitemap link in the footer and verify it redirects to the correct page.
+
+89. Footer Social Icons Responsive Test
+    Task: Verify that social icons in the footer display correctly on different screen sizes and devices.
+
+90. Footer Company Info Responsive Test
+    Task: Verify that the TravelAI Solutions Inc. information in the footer displays correctly on different screen sizes.
+
+91. Footer Legal Links Responsive Test
+    Task: Verify that Privacy Policy/Terms/Sitemap links display correctly on different screen sizes.
+
+92. Footer Links Accessibility Test
+    Task: Verify that all footer links can be accessed using keyboard navigation and are properly announced by screen readers.
+
+93. Footer Links Loading Time Test
+    Task: Measure the loading time of all footer links and verify they meet performance standards.
+
+94. Footer Links HTTPS Security Test
+    Task: Verify that all footer links use secure HTTPS connections when redirecting to their respective pages.

@@ -104,7 +104,7 @@ Task: Verify all social media icons are visible and clickable, and they redirect
 Website Load Time Test
 Task: Measure the website load time on different devices and network conditions to ensure it meets performance standards.
 
-// hover test cases
+//not added below and all the 'figma' & 'hover'
 
 Applied AI Navigation Menu Hover Test
 Task: Hover over the 'Applied AI' menu item, verify the correct URL displays in the browser status bar, and confirm the hover state changes the color appropriately.
@@ -118,6 +118,8 @@ Task: Hover over the 'Contact Us' menu item, verify the correct URL displays in 
 Resources Navigation Menu Hover Test
 Task: Hover over the 'Resources' menu item, verify the correct URL displays in the browser status bar, and confirm the hover state changes the color appropriately.
 
+22. Page Load Performance Test
+    Task: Measure the load time for each section (Hero, Agentic Network, Third Voice Travel AI, Travel Platform Shifts) on different devices.
 
 You're a QA tester for testing a website (for example, now travelai.com), and your task is below. After each successful evaluation, move to the next task. Don't repeat any task.
 
