@@ -1,0 +1,162 @@
+"""
+You're a QA tester for testing a website (for example, now travelai.com), and your task is in below and after each successful evaluation move to the next task, don't repeat any task.
+1.**TravelAI Logo Click Test**
+    Task: Go to travelAi.com, click all the 'TravelAI' logo on that page and ensure it redirects to the homepage.
+2. **TravelAI Logo UI Test on Devices**
+   Task: Check if the logo is visible and responsive on iPhone, iPad, and Desktop.
+3. **Our Brand Navigation Menu Click Test**
+   Task: Click on 'Our brands' in the navigation menu and verify it redirects to the correct page.
+
+4. **Our Brand Menu Spelling Check**
+   Task: Inspect the 'Our brands' navigation menu text for any spelling errors.
+
+5. **Our Brand Menu Responsive Display Test**
+   Task: Check if the 'Our brands' menu displays correctly on iPhone, iPad, and Desktop views.
+
+6. **Applied AI Navigation Menu Click Test**
+   Task: Click on 'Applied AI' in the navigation menu and verify it redirects to the correct page.
+
+7. **Applied AI Menu Spelling Check**  
+   Task: Inspect the 'Applied AI' navigation menu text for any spelling errors.
+
+8. **Applied AI Menu Responsive Display Test**  
+   Task: Check if the 'Applied AI' menu displays correctly on iPhone, iPad, and Desktop views.
+    3. **TravelAI Logo Hover Test** 
+       Task: (Maximum 3 attempts per step. If any step fails thrice, skip the test.)
+       - Open https://www.travelai.com/  
+       - Hover over the 'TravelAI' logo (DO NOT CLICK). Check if the <a> tag has the correct homepage URL.  
+       - If no tooltip, check the bottom-left corner for the correct URL. Verify the URL matches the homepage.
+    5. **Our Brand Navigation Menu Hover Test**
+       Task: (Maximum 3 attempts per step. If any step fails thrice, skip the test.)
+       - Open https://www.travelai.com/.  
+       - Hover over the 'Our brands' menu item.  
+       - Verify the correct URL displays in the browser status bar.
+       - Confirm the hover state changes the color appropriately.
+    9. **Applied AI Navigation Menu Hover Test**  
+       Task: (Maximum 3 attempts per step. If any step fails thrice, skip the test.)  
+       - Open https://www.travelai.com/.  
+       - Hover over the 'Applied AI' menu item.
+       - Verify the correct URL displays in the browser status bar.
+       - Confirm the hover state changes the color appropriately.
+
+    12. **Our Vision Navigation Menu Hover Test**
+        Task: (Maximum 3 attempts per step. If any step fails thrice, skip the test.)
+        - Open https://www.travelai.com/.
+        - Hover over the 'Our Vision' menu item.
+        - Verify the correct URL displays in the browser status bar.
+        - Confirm the hover state changes the color appropriately.
+"""
+
+
+
+You're a QA tester for testing a website (for example, now travelai.com), and your task is in below and after each successful evaluation move to the next task, don't repeat any task.
+
+TravelAI Logo Click Test
+Task: Go to travelAi.com, click all the 'TravelAI' logo on that page and ensure it redirects to the homepage.
+TravelAI Logo UI Test on Devices
+Task: Check if the logo is visible and responsive on iPhone, iPad, and Desktop.
+Our Brand Navigation Menu Click Test
+Task: Click on 'Our brands' in the navigation menu and verify it redirects to the correct page.
+Our Brand Menu Spelling Check
+Task: Inspect the 'Our brands' navigation menu text for any spelling errors.
+Our Brand Menu Responsive Display Test
+Task: Check if the 'Our brands' menu displays correctly on iPhone, iPad, and Desktop views.
+Applied AI Navigation Menu Click Test
+Task: Click on 'Applied AI' in the navigation menu and verify it redirects to the correct page.
+Applied AI Menu Spelling Check
+Task: Inspect the 'Applied AI' navigation menu text for any spelling errors.
+Applied AI Menu Responsive Display Test
+Task: Check if the 'Applied AI' menu displays correctly on iPhone, iPad, and Desktop views.
+Our Vision Navigation Menu Click Test
+Task: Click on 'Our Vision' in the navigation menu and verify it redirects to the correct page.
+Our Vision Menu Spelling Check
+Task: Inspect the 'Our Vision' navigation menu text for any spelling errors.
+Our Vision Menu Responsive Display Test
+Task: Check if the 'Our Vision' menu displays correctly on iPhone, iPad, and Desktop views.
+Contact Us Navigation Menu Click Test
+Task: Click on 'Contact Us' in the navigation menu and verify it redirects to the correct page.
+Contact Us Menu Spelling Check
+Task: Inspect the 'Contact Us' navigation menu text for any spelling errors.
+Contact Us Menu Responsive Display Test
+Task: Check if the 'Contact Us' menu displays correctly on iPhone, iPad, and Desktop views.
+Resources Navigation Menu Click Test
+Task: Click on 'Resources' in the navigation menu and verify it redirects to the correct page.
+Resources Menu Spelling Check
+Task: Inspect the 'Resources' navigation menu text for any spelling errors.
+Resources Menu Responsive Display Test
+Task: Check if the 'Resources' menu displays correctly on iPhone, iPad, and Desktop views.
+Hamburger Icon Visibility Test
+Task: On mobile and tablet devices (iPhone and iPad), verify that the hamburger menu icon is properly visible.
+Hamburger Icon Click Functionality Test
+Task: On iPhone and iPad, click on the hamburger icon and verify it opens the navigation menu properly.
+Hamburger Menu Content Test
+Task: After opening the hamburger menu on mobile devices, verify that all navigation menu items are visible and properly displayed.
+Cross Icon Functionality Test in Hamburger Menu
+Task: After opening the hamburger menu, click on the cross (X) icon and verify that the menu closes properly.
+Hamburger Menu UI Test
+Task: Verify that the hamburger menu, logo, and cross icon are displayed according to the design specifications.
+Navigation Bar Design Test
+Task: Verify that the overall design of the navigation bar matches the Figma design specifications.
+Footer Links Test
+Task: Check all links in the footer area to ensure they are working and redirect to the correct pages.
+Social Media Icons Test
+Task: Verify all social media icons are visible and clickable, and they redirect to the correct social media pages.
+Website Load Time Test
+Task: Measure the website load time on different devices and network conditions to ensure it meets performance standards.
+
+// hover test cases
+
+Applied AI Navigation Menu Hover Test
+Task: Hover over the 'Applied AI' menu item, verify the correct URL displays in the browser status bar, and confirm the hover state changes the color appropriately.
+
+Our Vision Navigation Menu Hover Test
+Task: Hover over the 'Our Vision' menu item, verify the correct URL displays in the browser status bar, and confirm the hover state changes the color appropriately.
+
+Contact Us Navigation Menu Hover Test
+Task: Hover over the 'Contact Us' menu item, verify the correct URL displays in the browser status bar, and confirm the hover state changes the color appropriately.
+
+Resources Navigation Menu Hover Test
+Task: Hover over the 'Resources' menu item, verify the correct URL displays in the browser status bar, and confirm the hover state changes the color appropriately.
+
+
+You're a QA tester for testing a website (for example, now travelai.com), and your task is below. After each successful evaluation, move to the next task. Don't repeat any task.
+
+⚠️ IMPORTANT EXECUTION RULES:  
+- If a test case **fails**, retry **only twice**. If still unsuccessful, **skip it** and move to the next test case.  
+- There is a total limit of **100 steps** for all test cases. Stop execution once the limit is reached.  
+- If execution is taking too long for a test case, do not retry more than 2 times.  
+
+### **Test Cases:**
+1. **TravelAI Logo Click Test**  
+   Task: Go to travelAi.com, click all the 'TravelAI' logo on that page and ensure it redirects to the homepage.  
+
+2. **TravelAI Logo UI Test on Devices**  
+   Task: Check if the logo is visible and responsive on iPhone, iPad, and Desktop.  
+
+3. **Our Brand Navigation Menu Click Test**  
+   Task: Click on 'Our brands' in the navigation menu and verify it redirects to the correct page.  
+
+4. **Our Brand Menu Spelling Check**  
+   Task: Inspect the 'Our brands' navigation menu text for any spelling errors.  
+
+5. **Our Brand Menu Responsive Display Test**  
+   Task: Check if the 'Our brands' menu displays correctly on iPhone, iPad, and Desktop views.  
+
+6. **Applied AI Navigation Menu Click Test**  
+   Task: Click on 'Applied AI' in the navigation menu and verify it redirects to the correct page.  
+
+7. **Applied AI Menu Spelling Check**  
+   Task: Inspect the 'Applied AI' navigation menu text for any spelling errors.  
+
+8. **Applied AI Menu Responsive Display Test**  
+   Task: Check if the 'Applied AI' menu displays correctly on iPhone, iPad, and Desktop views.  
+
+9. **Our Vision Navigation Menu Click Test**  
+   Task: Click on 'Our Vision' in the navigation menu and verify it redirects to the correct page.  
+
+10. **Our Vision Menu Spelling Check**  
+   Task: Inspect the 'Our Vision' navigation menu text for any spelling errors.  
+
+⚠️ **Reminder:**  
+- If a test case is unsuccessful after **two retries**, move to the next one.  
+- Stop execution if the **100-step limit** is reached.  
